@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+.header-footer, .color-fondo-nav, .color-fondo {
+  background-color: crimson;
+  font-family: "Montserrat";
+  color: white; }
+
+.color-fondo-nav .hover:hover {
+  color: black;
+  transition: .2s; }
+
+.bg-container {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+  justify-content: center; }
+  .bg-container .bg-img {
+    background-image: url(../assets/wp6_2.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    height: 45vh;
+    width: 100%;
+    background-position: center;
+    z-index: -1; }
+  .bg-container .main-logo {
+    width: 100%;
+    height: 100%;
+    top: 24%;
+    position: absolute;
+    z-index: -1; }
+
+.ult-noticias {
+  text-align: center;
+  text-decoration: underline 1.5vh crimson;
+  color: black;
+  margin-top: 2vh;
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 5vh 0vh; }
+
+.titular {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5vh;
+  margin-bottom: 1.5vh;
+  text-align: start !important; }
+
+p {
+  font-size: 4vw;
+  font-family: 'Montserrat';
+  line-height: normal;
+  margin-bottom: .5vh; }
+
+.tamaño {
+  width: 100% !important;
+  height: 100%;
+  margin-top: 7vh; }
+
+@media (max-width: 768px) {
+  .ult-noticias {
+    text-align: center;
+    text-decoration: underline 1.2vh crimson;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 4vh !important;
+    font-weight: bold; }
+  .margen-mobile-inicio {
+    width: 85%;
+    height: auto;
+    margin: 25px auto; } }
+
+@media (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; }
+    .bg-container .bg-img {
+      background-image: url(../assets/wp6_2.jpg);
+      background-size: cover;
+      filter: blur(2px);
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      z-index: -1; }
+    .bg-container .main-logo {
+      width: 60%;
+      height: 100%;
+      top: 20%;
+      position: absolute;
+      z-index: -1; }
+  .margen-mobile-inicio {
+    width: 40%;
+    margin: 10px; } }
+
+@media (min-width: 1024px) {
+  .margen-inicio {
+    width: 25%;
+    margin: 15px; }
+    .margen-inicio:hover {
+      box-shadow: 1px 1px 3.7px rgba(225, 30, 30, 0.084), 2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088), 4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36), 8px 7.8px 29.5px rgba(255, 30, 30, 0.072), 15px 14.6px 55.1px rgba(255, 30, 30, 0.26), 36px 35px 132px rgba(225, 30, 30, 0.22);
+      transform: scale(103%);
+      transition: ease-in-out .2s; } }
+
+.color-rojo {
+  background-color: crimson;
+  border-radius: 15px;
+  border: 0; }
+
+.tamaño {
+  width: 100% !important;
+  height: 100%;
+  margin-top: 7vh; }
+
+.margen-equipo {
+  margin: 25px 0; }
+
+.equipo-titulo {
+  text-align: center;
+  text-decoration: underline 1.5vh crimson;
+  color: black;
+  margin-top: 2vh;
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  font-weight: bold; }
+
+.titular {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5vh;
+  margin-bottom: 15px; }
+
+.subtitulo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2vh;
+  margin-bottom: 5px; }
+
+p {
+  font-size: 1.8vh;
+  font-family: 'Montserrat';
+  line-height: normal;
+  margin-bottom: 1.2vh; }
+
+@media (max-width: 768px) {
+  .equipo-titulo {
+    text-align: center;
+    text-decoration: underline 1.2vh crimson;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 4vh !important;
+    font-weight: bold; }
+  .margen-mobile-equipo {
+    width: 85%;
+    height: auto;
+    margin: 25px auto; } }
+
+@media (min-width: 768px) {
+  .margen-mobile-equipo {
+    width: 30%;
+    margin: 10px; } }
+
+@media (min-width: 1024px) {
+  .margen-equipo {
+    width: 25%;
+    margin-top: 50px;
+    margin: 0 15px; }
+    .margen-equipo:hover {
+      box-shadow: 1px 1px 3.7px rgba(225, 30, 30, 0.084), 2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088), 4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36), 8px 7.8px 29.5px rgba(255, 30, 30, 0.072), 15px 14.6px 55.1px rgba(255, 30, 30, 0.26), 36px 35px 132px rgba(225, 30, 30, 0.22);
+      transform: scale(103%);
+      transition: ease-in-out .2s; } }
+
+.calendario-titulo {
+  text-align: center;
+  text-decoration: underline 1.5vh crimson;
+  color: black;
+  margin-top: 2vh;
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  font-weight: bold; }
+
+.titular-calendario {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5vh;
+  margin-bottom: 15px; }
+
+.subtitulo-calendario {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2vh;
+  margin-bottom: 5px; }
+
+.tamaño {
+  width: 100% !important;
+  height: 100%;
+  margin-top: 7vh; }
+
+.margen {
+  margin: 25px 0; }
+
+@media (max-width: 768px) {
+  .calendario-titulo {
+    text-align: center;
+    text-decoration: underline 1.2vh crimson;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 4vh !important;
+    font-weight: bold; }
+  .margen-mobile {
+    width: 85%;
+    height: auto;
+    margin: 25px auto; } }
+
+@media (min-width: 768px) {
+  .margen-mobile {
+    width: 30%;
+    margin: 10px; } }
+
+@media (min-width: 1024px) {
+  .margen {
+    margin-top: 50px;
+    margin: 15px; }
+    .margen:hover {
+      box-shadow: 1px 1px 3.7px rgba(225, 30, 30, 0.084), 2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088), 4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36), 8px 7.8px 29.5px rgba(255, 30, 30, 0.072), 15px 14.6px 55.1px rgba(255, 30, 30, 0.26), 36px 35px 132px rgba(225, 30, 30, 0.22);
+      transform: scale(103%);
+      transition: ease-in-out .2s; } }
+
+@media (min-width: 1440px) {
+  .margen {
+    width: 22%; } }
+
+.contenedor-iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden; }
+  .contenedor-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.header-footer, .color-fondo-nav, .color-fondo {
+  background-color: crimson;
+  font-family: "Montserrat";
+  color: white; }
+
+.color-fondo {
+  margin-top: 10vh; }
+
+.main {
+  height: 75vh; }
+
+.contacto-titulo {
+  text-align: center;
+  text-decoration: underline 1.5vh crimson;
+  color: black;
+  margin-top: 2vh;
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 5vh; }
+
+.ancho {
+  width: 40%; }
+  .ancho .ancho-form {
+    width: 50%; }
+
+@media (max-width: 768px) {
+  .contacto-titulo {
+    text-align: center;
+    text-decoration: underline 1.2vh crimson;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 4vh !important;
+    font-weight: bold; }
+  .ancho {
+    width: 80%; }
+    .ancho .ancho-form {
+      width: 100%; } }
+
+.cal-card1,
+.cal-card2,
+.cal-card3,
+.cal-card4,
+.cal-card5,
+.cal-card6,
+.cal-card7,
+.cal-card8,
+.cal-card9,
+.cal-card10,
+.cal-card11,
+.cal-card12 {
+  background-color: crimson;
+  justify-content: center;
+  border-radius: 10px; }
+
+.header-footer, .color-fondo-nav, .color-fondo {
+  background-color: crimson;
+  font-family: "Montserrat";
+  color: white; }

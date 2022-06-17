@@ -1,0 +1,110 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+
+.bg-container {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    .bg-img {
+        background:{ 
+        image: url(../assets/wp6_2.jpg);
+        size: cover;
+        }
+        filter: blur(2px);
+        height: 45vh;
+        width: 100%;
+        background-position: center;
+        z-index: -1;
+        
+    }
+    .main-logo {
+        width: 100%;
+        height: 100%;
+        top: 24%;
+        position: absolute;
+        z-index: -1;
+    }
+}
+.ult-noticias {
+    @include estilo-h1;
+    margin: 5vh 0vh;
+}
+
+.titular {
+    @include titular-mobile;
+    margin-bottom: 1.5vh;
+    text-align: start !important;
+}
+p{
+    font-size: 4vw;
+    font-family: 'Montserrat';
+    line-height: normal;
+    margin-bottom: .5vh;
+}
+.tamaño{
+    width: 100% !important;
+    height: 100%;
+    margin-top: 7vh;
+}
+@media (max-width: 768px){
+    .ult-noticias{
+        @include estilo-h1-mobile;
+    }
+    .margen-mobile-inicio{
+        width: 85%;
+        height: auto;
+        margin: 25px auto;
+    }
+}
+@media (min-width: 768px){
+    .bg-container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        .bg-img {
+            background:{ 
+            image: url(../assets/wp6_2.jpg);
+            size: cover;
+            }
+            filter: blur(2px);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            z-index: -1;
+            
+        }
+        .main-logo {
+            width: 60%;
+            height: 100%;
+            top: 20%;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    .margen-mobile-inicio{
+        width: 40%;
+        margin: 10px
+    }
+}
+
+@media (min-width: 1024px){
+    .margen-inicio{ 
+        width: 25%;
+        margin: 15px;
+        &:hover{
+            box-shadow:
+            1px 1px 3.7px rgba(225, 30, 30, 0.084),
+            2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088),
+            4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36),
+            8px 7.8px 29.5px rgba(255, 30, 30, 0.072),
+            15px 14.6px 55.1px rgba(255, 30, 30, 0.26),
+            36px 35px 132px rgba(225, 30, 30, 0.22);
+        transform: scale(103%);
+        transition: ease-in-out .2s;
+        }
+    }
+}

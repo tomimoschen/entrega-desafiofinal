@@ -1,0 +1,38 @@
+@import "../variables/variables.scss";
+
+@mixin estilo-h1{
+    text-align: center;
+    text-decoration: underline 1.5vh $rojo;
+    color: black;
+    margin-top: 2vh;
+    font:{
+        family: $fuente;
+        size: 3.5em;
+        weight: bold;
+    }
+}
+@mixin estilo-h1-mobile{
+    text-align: center;
+    text-decoration: underline 1.2vh $rojo;
+    color: black;
+    font:{
+        family: $fuente;
+        size: 4vh !important;
+        weight: bold;
+    }
+}
+@mixin titular-mobile {
+    text-align: center;
+    font:{
+        family: $fuente;
+        weight: 700;
+        size: 2.5vh;
+    }
+}
+@mixin subtitulo-mobile{
+    font:{
+        family: $fuente;
+        weight: 700;
+        size: 2vh;
+    } 
+}
